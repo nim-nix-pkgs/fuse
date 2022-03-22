@@ -9,8 +9,8 @@
   
   inputs.src-fuse-master.flake = false;
   inputs.src-fuse-master.owner = "akiradeveloper";
-  inputs.src-fuse-master.ref   = "refs/heads/master";
-  inputs.src-fuse-master.repo  = "nim-fuse";
+  inputs.src-fuse-master.ref   = "master";
+  inputs.src-fuse-master.repo  = "nim-fuse.git";
   inputs.src-fuse-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
