@@ -11,6 +11,7 @@
   inputs.src-fuse-master.ref   = "refs/heads/master";
   inputs.src-fuse-master.owner = "akiradeveloper";
   inputs.src-fuse-master.repo  = "nim-fuse";
+  inputs.src-fuse-master.dir   = "";
   inputs.src-fuse-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
